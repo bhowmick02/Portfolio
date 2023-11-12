@@ -1,0 +1,162 @@
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 23px;
+    text-decoration: none;
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.left{
+    font-size: 1.8rem;
+    font-family: 'Homemade Apple', cursive;
+}
+
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+    font-size: 1.3rem;
+}
+
+.first>div{
+    width: 30%;
+}
+
+.rightsection{
+    width:80%;
+    display: flex;
+}
+
+.rightsection img{
+    width: 90%;
+    margin: 3px;
+}
+
+.btn{
+    font-size: 1.3rem;
+    padding: 6px 16px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    background-color: slateblue ;
+    border: 2px solid #bd7fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.resumebtn{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 0px;
+    align-items: center ;
+    padding: 6px 16px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    background-color: slateblue ;
+    border: 2px solid #bd7fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.resumebtn:hover{
+    background-color: #f67fff;
+}
+
+.resumebtn:active{
+    background-color: #bd7fff;
+}
+
+.introthird{
+    padding-top: 23px;
+    display: flex;
+}
+
+hr{
+    margin: 23px 50px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+}
+
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 118vh;
+}
+
+.secondleftsection h3{
+    font-size: 1.5rem;
+}
+
+.about{
+    margin-top: 16px;
+    font-size: 1.3rem;
+}
+
+.about>p{
+    margin-top: 16px;
+
+}
+
+.education h4{
+    margin: 34px 0;
+    font-size: 1.3rem;
+    display: flex;
+}
+
+.third{
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+}
+
+
+.third h4{
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+
+.fourth{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.fourthleftsection h3{
+    font-size: 1.5rem;
+    margin-bottom: 34px;
+}
+
+.fifth{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+.fifthleftsection h3{
+    font-size: 1.5rem;
+}
+
+
+

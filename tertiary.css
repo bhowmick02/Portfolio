@@ -1,0 +1,46 @@
+.purpletext{
+    color: rgb(175, 95, 250);
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.extrawhitetext{
+    color: rgb(175, 95, 250);
+    font-size: 2.2rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 4px 15px;
+    border-radius: 10px;
+}
+
+#element{
+    color: rgb(175, 95, 250);
+}
+
+nav ul li a:hover{
+    color: rgb(197, 135, 255);
+    font-size: 1.02rem;
+}
+
+
+.btn:hover{
+    background-color: #fb8bfd;
+    color: black;
+}
+
+.btn:active{
+    background-color: #c300ff;
+    color: #ffffff;
+}
+.deeppurpletext{
+    color: rgb(68, 12, 121);
+}
+
+.highlight{
+    color: white;
+    background-color:rgb(115, 46, 210);
+    padding: 2px 10px;
+    border: 2px solid rgb(39, 5, 72);
+    border-style: hidden;
+    border-radius: 10px;
+}

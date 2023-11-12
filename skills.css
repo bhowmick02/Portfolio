@@ -1,0 +1,75 @@
+.skills {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    align-items: center;
+    display: contents;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.skill-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    align-items: center;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin-top: 23px;
+}
+
+.skill-bar {
+    height: 28px;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.skill-per {
+    height: 28px;
+    background: #bd7fff;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.skill p{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+}
+/* .skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+} */
+
+@keyframes fillBars {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
